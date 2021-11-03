@@ -1,0 +1,34 @@
+.container-card {
+  width: 65vw;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  margin-top: 25px;
+  align-items: flex-start;
+}
+
+h2 {
+  margin: 0px;
+}
+
+img {
+  width: 25vw;
+  height: auto;
+  margin-right: 15px;
+}
+
+button {
+  border-color: #302e53;
+  background: #302e53;
+  transition-duration: 1s;
+  margin-top: 10px;
+}
+
+.container-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}

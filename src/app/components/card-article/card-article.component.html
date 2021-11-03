@@ -1,0 +1,21 @@
+<div class="{{classCSS}}">
+  <img src="{{imgUrl}}" alt="imgArticle">
+  <section>
+    <div>
+      <h2>
+      {{title}}
+      </h2>
+      <span>
+        <div>{{data | date:'dd/MM/yyyy'}}</div>
+        <button pButton type="button" label="newsSite" class="p-button-outlined" (click)="navSite()"></button>
+      </span>
+    </div>
+    <div class="summary">
+      {{summary}}
+    </div>
+    <button pButton type="button" label="Ver mais" (click)="modalArticle = true"></button>
+  </section>
+</div>
+
+<app-modal-article *ngIf="modalArticle" [id]="id" [modalVisible]="modalArticle" (closeModal)="modalArticle = false">
+</app-modal-article>

@@ -1,0 +1,37 @@
+<header>
+    <div class="header-div-one">
+      <div class="search-div">
+        <div class="p-inputgroup">
+          <input [(ngModel)]="filter" type="text" pInputText placeholder="Search">
+          <button type="button" (click)="searchArticle()" pButton pRipple icon="pi pi-search" styleClass="p-button-warn"></button>
+        </div>
+      </div>
+      <div class="p-col-3">
+        <p-dropdown [(ngModel)]="selectDate" [options]="cities" placeholder="Sort" optionLabel="name"></p-dropdown>
+      </div>
+    </div>
+  <div class="header-div-two">
+    <div class="logo">
+      <img src="../../../assets/images/spaceship.svg" alt="spaceship">
+    </div>
+    <h1>
+      Space Flight News
+    </h1>
+  </div>
+</header>
+
+<div class="container-list">
+    <app-card-article *ngFor="let item of list; let i = index"
+      [url]="item.url"
+      [indexCSS]= "i"
+      [id]="item.id"
+      [imgUrl]="item.imageUrl"
+      [title]="item.title"
+      [data]="item.publishedAt"
+      [summary]="item.summary">
+    </app-card-article>
+</div>
+
+<footer class="container-button">
+  <button pButton type="button" label="Carregar mais" class="p-button-outlined" (click)="loadMore()"></button>
+</footer>

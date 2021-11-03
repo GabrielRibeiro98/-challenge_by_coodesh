@@ -1,0 +1,77 @@
+.container-card {
+  width: 65vw;
+  padding: 10px;
+  display: flex;
+  margin-top: 75px;
+  align-items: flex-start;
+}
+
+.container-card section {
+  margin-left: 15px;
+}
+
+.container-card-reverse {
+  width: 65vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 75px;
+}
+
+.container-card-reverse section {
+  margin-right: 15px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+img {
+  width: 25vw;
+  height: auto;
+}
+
+button {
+  border-color: #302e53;
+  background: #302e53;
+  transition-duration: 1s;
+  margin-top: 10px;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span button {
+  height: 23px;
+  color: #d07017;
+  border-color: #d07017;
+}
+
+.summary {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .container-card {
+    width: 90vw;
+    padding: 10px;
+    display: flex;
+    margin-top: 25px;
+    margin-right: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container-card-reverse {
+    width: 90vw;
+    padding: 10px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
