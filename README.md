@@ -6,6 +6,10 @@ Desafio com propósito de ver minhas habilidades como Front-End Developer.
 
 Sistema criado para mostrar artigos relacionados a voo espaciais.
 
+## Link da apresentação
+
+link loom - https://www.loom.com/share/f1422f68322d4ac0ba174a48787f5185
+
 ## Linguagem, framework e/ou tecnologias usadas
 
 Linguagem de promogração : TypeScript
