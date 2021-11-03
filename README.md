@@ -23,3 +23,7 @@ Framework CSS : Primeng - https://www.primefaces.org/primeng/
 3 - Utilizar o comando ng serve
 
 4 - entrar no navegador e abrir o localhost
+
+## Notas finais
+
+Eu consegui concluir todos os requisitos obrigatórios, porém os diferencias eu não cheguei a fazer, por uma questão de tempo, eu trabalho e preciso estudar, então me faltou esse tempo a fazer isso, mas obrigado pela oportunidade, espero que eu consiga passar e caso não eu peço que vocês façam comentarios onde eu posso melhorar e lugares que vocês gostam de estudar sobre.
